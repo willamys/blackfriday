@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import FormComponent from './components/formComponent';
 import HeaderComponent from './components/headerComponent';
+import FooterComponent from './components/footerComponent';
 
 function App() {
   return (
     <>
       <HeaderComponent />
-      <FormComponent />
+      <FooterComponent />
     </>
   );
 }
