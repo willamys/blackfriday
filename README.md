@@ -22,6 +22,6 @@ The page result can be access in that [link](http://)
 
 ### Resources
 
-React, to learn check out the [React documentation](https://reactjs.org/).
-Styled Component, [https://styled-components.com/](https://styled-components.com/)
-GitHub Pages, [https://pages.github.com/](https://pages.github.com/ )
+- React, to learn check out the [React documentation](https://reactjs.org/).
+- Styled Component, [https://styled-components.com/](https://styled-components.com/)
+- GitHub Pages, [https://pages.github.com/](https://pages.github.com/ )
