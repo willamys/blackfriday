@@ -2,6 +2,8 @@
 
 Clone the Project
 
+### `git clone https://github.com/willamys/saudavel_landing_page.git`
+
 In the project directory, you can run:
 
 ### `yarn start`
