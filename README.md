@@ -18,7 +18,7 @@ You will also see any lint errors in the console.
 
 The project was created in the Hiring Coders Program. The aim was develop a landing page about to promote some product like black friday.
 
-The page result can be access in that [link](http://)
+The page result can be access in that [link](https://willamys.github.io/saudavel_landing_page/)
 
 ### Resources
 
