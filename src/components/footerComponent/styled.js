@@ -1,11 +1,10 @@
 import styled from 'styled-components';
 
-
 export const SocialMedia = styled.div`
   color: #000;
   background-color: #fff;
   width:100vw;
-  height:15vh;
+  height:12vh;
   font-size: 15pt;
   font-weight: bold;
   text-align: center;

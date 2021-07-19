@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import * as S from './styled';
-import logo from './../../assets/logo.png';
 
 function FormComponent() {
 
@@ -9,7 +8,8 @@ function FormComponent() {
   const [sendMail, setSendMail] = useState(false);
   const [nameButton, setNameButton] = useState('Cadastrar');
 
-  function handlePesquisa() {
+  function handlePesquisa(e) {
+    e.preventDefault();
     const users = [];
     const user = {
       name_user: name,
@@ -31,18 +31,18 @@ function FormComponent() {
             <S.Title>Email enviado com sucesso!</S.Title>
             :
             <>
-              <S.Title>
-                Deixe seu email e fique por dentro de nossos<br />
-                lançamentos de livros nessa temática.</S.Title>
-              <S.Input type="text" name="name" id="name" value={name}
-                placeholder="Seu Nome" onChange={e => setName(e.target.value)} required />
-              <S.Input type="email" name="email" id="email" value={email}
-                placeholder="Seu E-mail" onChange={e => setEmail(e.target.value)} required />
-              <S.Button onClick={handlePesquisa}>{nameButton}</S.Button>
+              <form onSubmit={handlePesquisa}>
+                <S.Title>
+                  Deixe seu email e fique por dentro de nossos<br />
+                  lançamentos de livros nessa temática.</S.Title>
+                <S.Input type="text" name="name" id="name" value={name}
+                  placeholder="Seu Nome" onChange={e => setName(e.target.value)} required />
+                <S.Input type="email" name="email" id="email" value={email}
+                  placeholder="Seu E-mail" onChange={e => setEmail(e.target.value)} required />
+                <S.Button type="submit">{nameButton}</S.Button>
+              </form>
             </>
-
           }
-
         </S.Card>
       </S.Container>
     </>

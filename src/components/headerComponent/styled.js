@@ -32,9 +32,10 @@ text-align: center;
 font-weight: bold;
 font-family: sans-serif;
 color: #000;
-font-size: 50pt;
+font-size: 35pt;
 background-color: #fff;
 opacity:0.8;
+padding: 10px;
 `;
 
 export const SubTitle = styled.h2`
@@ -44,6 +45,7 @@ font-weight: bold;
 font-family: sans-serif;
 color: #000;
 background-color: #990014;
-font-size: 30pt;
+font-size: 25pt;
+padding: 10px;
 `;
 
