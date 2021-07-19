@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/saudavel_landing_page/static/css/main.bad5070a.chunk.css",
+    "main.js": "/saudavel_landing_page/static/js/main.be0d3440.chunk.js",
+    "main.js.map": "/saudavel_landing_page/static/js/main.be0d3440.chunk.js.map",
+    "runtime-main.js": "/saudavel_landing_page/static/js/runtime-main.712100e5.js",
+    "runtime-main.js.map": "/saudavel_landing_page/static/js/runtime-main.712100e5.js.map",
+    "static/js/2.91edae97.chunk.js": "/saudavel_landing_page/static/js/2.91edae97.chunk.js",
+    "static/js/2.91edae97.chunk.js.map": "/saudavel_landing_page/static/js/2.91edae97.chunk.js.map",
+    "static/js/3.1f7c77e9.chunk.js": "/saudavel_landing_page/static/js/3.1f7c77e9.chunk.js",
+    "static/js/3.1f7c77e9.chunk.js.map": "/saudavel_landing_page/static/js/3.1f7c77e9.chunk.js.map",
+    "index.html": "/saudavel_landing_page/index.html",
+    "static/css/main.bad5070a.chunk.css.map": "/saudavel_landing_page/static/css/main.bad5070a.chunk.css.map",
+    "static/js/2.91edae97.chunk.js.LICENSE.txt": "/saudavel_landing_page/static/js/2.91edae97.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/saudavel_landing_page/static/media/back_p.4ebbb1b3.jpg",
+    "static/media/git.5eab40a0.png": "/saudavel_landing_page/static/media/git.5eab40a0.png",
+    "static/media/linkedIn.3a2357df.png": "/saudavel_landing_page/static/media/linkedIn.3a2357df.png",
+    "static/media/logo.109cb40f.png": "/saudavel_landing_page/static/media/logo.109cb40f.png",
+    "static/media/logo.6ce24c58.svg": "/saudavel_landing_page/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.712100e5.js",
+    "static/js/2.91edae97.chunk.js",
+    "static/css/main.bad5070a.chunk.css",
+    "static/js/main.be0d3440.chunk.js"
+  ]
+}
